@@ -1,0 +1,7 @@
+/* line 3, ../sass/responsive.scss */
+body {
+  color: #444;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+}

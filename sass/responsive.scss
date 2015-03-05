@@ -1,0 +1,7 @@
+@import 'compass';
+
+body {
+  color : #444 ;
+  @include border-radius(13px);
+}
+
