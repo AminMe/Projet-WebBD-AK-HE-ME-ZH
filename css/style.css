@@ -5,10 +5,10 @@ html {
     font-size: 125%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    font-family: "Lobster", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
+    font-family: "Lobster", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #555555;
     background-color: #ecf0f1;
 }
@@ -25,41 +25,43 @@ h1 {
 
 ul {
     list-style-type: none;
-    color: #ecf0f1;
     top:0px;
     margin: 0;
     float: right;
+    padding: 0;
 }
 
 li {
     float: left;
-    padding: 15px;
+    padding: 15px 10px;
 }
 
 
 .logo {
-    color: #ecf0f1;
     font-weight: 200;
     font-size: 200%;
+    padding-left: 15px;
+
 }
 
 #menu {
-    background-color: #95a5a6; /*TODO transparent*/
-    height: 50px;
+    background-color: #ecf0f1; /*TODO transparent*/
+    opacity: 0.9;
+    height: 55px;
     position: fixed;
     top:0; right: 0; left: 0;
     z-index: 1000;
+    color: #444444;
 }
 
 #main {
 
-    /*background-color: #2980b9;*/
     height: 100%;
     width: 100%;
     background: url("../maquette/home_960_grid_12_col-assets/bg.jpg") no-repeat;
     position: absolute;
 
-    top:40px; right: 0; left: 0;
+    top:45px; right: 0; left: 0;
 }
 
 #main .annonce {
@@ -87,10 +89,17 @@ li {
     html {
         font-size: 100%;
     }
+    #menu {
+        height: 40px;
+    }
 }
 
 @media (max-width: 600px) {
     html {
         font-size: 80%;
+    }
+
+    #menu {
+        height: 35px;
     }
 }
