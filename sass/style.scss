@@ -9,6 +9,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+#logo {
+  font-family: 'Pacifico';
+  font-size: 200%;
+
+}
+
+
 $size-wrapper-pad-tb: 6em;
 $size-wrapper-pad-lr: 3em;
 
@@ -1034,6 +1042,7 @@ $size-wrapper-pad-lr: 3em;
 		&.style1 {
 			.content {
 				border-color: $color-accent1-bg;
+
 			}
 		}
 

@@ -147,7 +147,7 @@ header.major {
 }
 /* line 149, ../sass/style-small.scss */
 #titleBar .toggle:before {
-  background: #e44c65;
+  background: #27ae60;
   color: rgba(255, 255, 255, 0.5);
   content: '\f0c9';
   display: block;
