@@ -77,3 +77,9 @@ body, input, select, textarea {
 #footer {
   padding: 4.5em 0;
 }
+
+/* line 88, ../sass/style-medium.scss */
+#logo {
+  font-family: 'Pacifico';
+  font-size: 150%;
+}

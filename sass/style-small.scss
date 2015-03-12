@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 $size-wrapper-pad-tb: 3.25em;
 $size-wrapper-pad-lr: 1.5em;
 
@@ -136,6 +138,9 @@ $size-wrapper-pad-lr: 1.5em;
 			height: 44px;
 			line-height: 44px;
 			text-align: center;
+          font-family: 'Pacifico';
+          font-size: 100%;
+
 		}
 
 		.toggle {
@@ -149,7 +154,9 @@ $size-wrapper-pad-lr: 1.5em;
 			&:before {
 				background: $color-accent1-bg;
 				color: $color-fg-light;
+                font-family: FontAwesome;
 				content: '\f0c9';
+
 				display: block;
 				font-size: 18px;
 				height: 44px;
@@ -202,3 +209,9 @@ $size-wrapper-pad-lr: 1.5em;
 	#footer {
 		padding: $size-wrapper-pad-tb $size-wrapper-pad-lr;
 	}
+
+#logo {
+  font-family: 'Pacifico';
+  font-size: 100%;
+
+}
