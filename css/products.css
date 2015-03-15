@@ -1,12 +1,41 @@
-/* line 1, ../sass/products.scss */
-.container {
-  background-color: #333;
-  min-height: 300px;
+/* line 4, ../sass/products.scss */
+nav {
+  color: #ffffff;
 }
 
-/* line 7, ../sass/products.scss */
-.specialbanner {
-  height: 50px;
-  max-height: 50px;
-  background-color: transparent;
+/* line 8, ../sass/products.scss */
+#logo {
+  color: #ffffff;
+}
+
+/* line 13, ../sass/products.scss */
+.major {
+  background-color: rgba(39, 40, 51, 0.965);
+}
+/* line 16, ../sass/products.scss */
+.major .search {
+  background-color: rgba(39, 40, 51, 0.965);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 24, ../sass/products.scss */
+form {
+  background-color: rgba(39, 40, 51, 0.965);
+}
+
+/* line 27, ../sass/products.scss */
+input {
+  border: 2px solid #000000;
+}
+
+/* line 31, ../sass/products.scss */
+#main {
+  background-color: #ffffff;
+}
+
+/* line 35, ../sass/products.scss */
+.container.search {
+  color: #ffffff;
 }

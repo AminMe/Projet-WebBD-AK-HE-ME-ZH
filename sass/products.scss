@@ -1,11 +1,38 @@
-.container {
+@import 'vars';
+@import 'mixins';
 
+nav {
+  color: #ffffff;
+}
+
+#logo {
+  color: #ffffff;
+}
+
+
+.major {
+  background-color: rgba(39, 40, 51, 0.965);;
+
+  .search {
+    background-color: rgba(39, 40, 51, 0.965);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+  }
+}
+form {
+  background-color: rgba(39, 40, 51, 0.965);
+}
+input {
+  border: 2px solid #000000;
+}
+
+#main {
   background-color: #ffffff;
-  min-height: 300px;
 }
 
-.specialbanner {
-  height: 50px;
-  max-height: 50px;
-  background-color: transparent;
+.container.search {
+  color: #ffffff;
 }
+
