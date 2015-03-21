@@ -108,11 +108,13 @@
         <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
         <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
         <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-        <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+        <li><a href="https://github.com/AminMe/Projet-WebBD-AK-HE-ME-ZH" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
         <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
     </ul>
     <ul class="copyright">
-        <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        <h1 id="logofooter"><a href="index.html">Posthings</a></h1>
+        <br/>
+        <li>&copy; Copyright Reserved <a>Posthings.com</a></li>
     </ul>
 </footer>
 
