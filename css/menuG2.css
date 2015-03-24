@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+$white: #ffffff;
+$slate: #404041;
+$red: #ff3e39;
+$green: #00ce61;
+$blue: #0074ce;
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+@include transition-property(background);
+@include transition-duration(300ms);
+    font-family: 'Inconsolata', sans-serif;
+    font-style: normal;
+}
+
+nav {
+    width: 75px;
+    background: $white;
+    /*  border-right: 1px solid $slate;*/
+    position: fixed;
+    z-index: 10;
+    height: 100%;
+
+li {
+
+    position: relative;
+    color: $slate;
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+    display: block;
+@include transition-property(color);
+@include transition-duration(300ms);
+
+&:hover {
+
+     color: $red;
+
+a {
+    left: 100px;
+}
+}
+
+&:first-child {
+     padding-top: 10px;
+ }
+
+&:last-child {
+     padding-bottom: 10px;
+ }
+
+a {
+
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    color: $white;
+@include transition-property(left);
+@include transition-duration(300ms);
+}
+
+}
+}
+
+.button {
+
+&.red {
+     color: $red;
+ }
+
+&.green {
+     color: $green;
+ }
+
+&.blue {
+     color: $blue;
+ }
+
+}
+
+.main {
+
+    padding: 50px;
+    position: relative;
+    left: 200px;
+    color: $white;
+    font-weight: 700;
+
+.callout {
+    background: rgba($white, 0.2);
+    padding: 3px 6px 4px 6px;
+    font-size:14px;
+@include border-radius(2px);
+}
+
+ul {
+
+    list-style: disc;
+    line-height: 2;
+
+}
+
+a {
+    color: $white;
+    text-decoration: none;
+    border-bottom: 1px solid $white;
+}
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+}

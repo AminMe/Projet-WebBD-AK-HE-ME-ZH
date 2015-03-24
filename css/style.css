@@ -2059,3 +2059,18 @@ body.is-touch #banner {
 #footer .copyright li a {
   color: inherit;
 }
+#menuG{/*
+  margin-right: 90%;
+  background: #ffffff;
+  display:inline-block;*/
+  margin-top: 10%;
+  background: none repeat scroll 0% 0% #272833;
+  width:100px;
+  height:400px;
+  border:1px solid #000000;
+}
+
+#main{
+
+  display:inline-block;
+}
