@@ -1,0 +1,41 @@
+/* line 5, ../sass/products.scss */
+nav {
+  color: #ffffff;
+}
+
+/* line 9, ../sass/products.scss */
+#logo {
+  color: #ffffff;
+}
+
+/* line 13, ../sass/products.scss */
+.major {
+  background-color: rgba(39, 40, 51, 0.965);
+}
+/* line 16, ../sass/products.scss */
+.major .search {
+  background-color: rgba(39, 40, 51, 0.965);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 24, ../sass/products.scss */
+form {
+  background-color: rgba(39, 40, 51, 0.965);
+}
+
+/* line 27, ../sass/products.scss */
+input {
+  border: 2px solid #000000;
+}
+
+/* line 31, ../sass/products.scss */
+#main {
+  background-color: #ffffff;
+}
+
+/* line 35, ../sass/products.scss */
+.container.search {
+  color: #ffffff;
+}
