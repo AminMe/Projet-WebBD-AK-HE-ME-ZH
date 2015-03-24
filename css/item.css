@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+/************************
+Colors
+************************/
+/************************
+Fonts
+************************/
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+/* line 22, ../sass/item.scss */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/************************
+Item
+************************/
+/* line 30, ../sass/item.scss */
+.item {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  max-width: 300px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  display: inline-block;
+  animation: anima 2s;
+  -webkit-animation: anima 2s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+/* line 45, ../sass/item.scss */
+.item .item-pic {
+  line-height: 0;
+}
+/* line 47, ../sass/item.scss */
+.item .item-pic img {
+  max-width: 100%;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+/* line 52, ../sass/item.scss */
+.item .item-buttons {
+  background: #171e22;
+  color: #dd354c;
+  padding: 10px 0;
+  width: 300px;
+  display: block;
+  text-align: right;
+  overflow: hidden;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* line 61, ../sass/item.scss */
+.item .item-buttons p {
+  float: left;
+  line-height: 30px;
+  padding-left: 20px;
+}
+/* line 66, ../sass/item.scss */
+.item .item-buttons a {
+  float: right;
+  background: #dd354c;
+  line-height: 30px;
+  padding: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+/* line 77, ../sass/item.scss */
+.item .info {
+  cursor: default;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(23, 30, 34, 0.9);
+  padding: 10px;
+  text-align: center;
+  top: 0;
+  display: none;
+  color: #fff;
+  padding: 20px 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 91, ../sass/item.scss */
+.item .info .cancel {
+  float: right;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+/* line 97, ../sass/item.scss */
+.item .info h2 {
+  color: #dd354c;
+  clear: both;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+/* line 103, ../sass/item.scss */
+.item .info p {
+  clear: both;
+}
