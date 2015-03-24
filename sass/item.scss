@@ -1,0 +1,107 @@
+@import "compass";
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+/************************
+Colors
+************************/
+$dark: #171e22;
+$pink: #dd354c;
+$dark-gray: #374347;
+$font-gray: #3e4246;
+$gray: #3e4246;
+$light-gray: #7f8f89;
+$white: #fff;
+$dark-pink: #601a24;
+
+/************************
+Fonts
+************************/
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+
+/************************
+Item
+************************/
+.item {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  max-width: 300px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+
+  display: inline-block;
+
+  animation: anima 2s;
+  -webkit-animation: anima 2s;
+
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden;
+  .item-pic {
+    line-height: 0;
+    img {
+      max-width:100%;
+      @include border-top-radius(5px);
+    }
+  }
+  .item-buttons {
+    background: $dark;
+    color: $pink;
+    padding: 10px 0;
+    width: 300px;
+    display: block;
+    text-align: right;
+    overflow: hidden;
+    @include border-bottom-radius(5px);
+    p {
+      float:left;
+      line-height: 30px;
+      padding-left: 20px;
+    }
+    a {
+      float: right;
+      background: $pink;
+      line-height: 30px;
+      padding: 0 10px;
+      color: $white;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-right: 10px;
+    }
+  }//.item-buttons
+  .info {
+    cursor: default;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(23,30,34,.9);
+    padding: 10px;
+    text-align: center;
+    top: 0;
+    display: none;
+    color: $white;
+    padding: 20px 10px;
+    @include box-sizing;
+    @include border-radius(5px);
+    .cancel {
+      float: right;
+      font-size: 25px;
+      color: $white;
+      cursor: pointer;
+    }
+    h2 {
+      color: $pink;
+      clear: both;
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+    p {
+      clear: both;
+    }
+  }
+}

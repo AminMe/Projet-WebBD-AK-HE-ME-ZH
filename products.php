@@ -28,6 +28,7 @@
     </noscript>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/products.css" />
+    <link rel="stylesheet" href="css/item.css" />
 
     <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
@@ -117,6 +118,6 @@
         <li>&copy; Copyright Reserved <a>Posthings.com</a></li>
     </ul>
 </footer>
-
+<script src="js/item.js"></script>
 </body>
 </html>
